@@ -1,0 +1,43 @@
+*{
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -2.1%;
+    padding: 1%;
+    background-color: rgb(83, 77, 77);
+    color: white;
+
+}
+
+
+.filler_image {
+    width: 50%;
+    height: auto;
+}
+
+/*.contact_info {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-left: 40%;
+    max-width: 50%;
+    
+} */
+
+nav a {
+    list-style: none;;
+    display: flex;
+    flex-flow: row;
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
