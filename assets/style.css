@@ -1,5 +1,24 @@
-
 .filler_image {
     width: 50%;
     height: auto;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    color: white;
+    background-color: rgb(99, 96, 96);
+}
+
+.header_links a{
+    display: flex;
+    flex-flow: row;
+    color: white;
+    margin-right: 5%;
+    list-style-type: none; 
+}
+
+/*.header_links a {
+    color: white;;
+}*/
