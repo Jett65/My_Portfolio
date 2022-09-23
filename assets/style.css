@@ -5,28 +5,38 @@
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0%;
-    color: white;
+    margin: -8px;
     background-color: rgb(99, 96, 96);
 }
 
-.backgroundimage {
+h1 {
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+/*.backgroundimage {
     height: 80px;
     width: 10%;
     margin-bottom: 25px;
     background-image: url(".\assets\image\darth-vader.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.header_links{
-    display: flex;
-    flex-flow: row;
-    margin-right: 5%;
-    list-style-type: none; 
-}
+} */
 
 .header_links a {
     color: white;;
 }
+
+.header_links{
+    display: flex;
+    flex-flow: row;   
+    margin-right: 5%;
+    list-style-type: none; 
+}
+
