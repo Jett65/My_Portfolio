@@ -1,5 +1,51 @@
+*{
+    font-family: Arial, sans-serif;
+}
 
 .filler_image {
     width: 50%;
     height: auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px;
+    margin-top: -20px;
+    background-color: #31343D;
+    
+}
+
+h1 {
+    color: black;
+    background-color: #92CCCD;
+    padding: 5px;
+    padding-left: 3rem;
+    margin-bottom: -5px;
+}
+
+.header_links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.header_links {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    list-style-type: none;
+}
+
+h2 {
+    color: #445876;
+    text-decoration: underline;
+}
+
+p{
+    max-width: 1000px;
 }
