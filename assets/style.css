@@ -11,14 +11,22 @@ header {
     background-color: rgb(99, 96, 96);
 }
 
-.header_links a{
+.backgroundimage {
+    height: 80px;
+    width: 10%;
+    margin-bottom: 25px;
+    background-image: url(".\assets\image\darth-vader.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header_links{
     display: flex;
     flex-flow: row;
-    color: white;
     margin-right: 5%;
     list-style-type: none; 
 }
 
-/*.header_links a {
+.header_links a {
     color: white;;
-}*/
+}
