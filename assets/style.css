@@ -14,6 +14,7 @@ header {
     margin: -10px;
     margin-top: -20px;
     background-color: #31343D;
+    max-width: none;
     
 }
 
@@ -47,16 +48,30 @@ h1 {
 
 .page_elements h2 {
     display: flex;
-    flex-flow: column;
-    text-align: right;;
+    text-align: right;
     color: #445876;
-    border-right: 2px solid red;
-    margin-left: -5px;
+    font-size: 2rem;
+    border-right: 3px solid #435877;
+    margin-left: 1rem;
     margin-right: 20px;
-    padding: 15px;
+    padding-right: 3rem;
     width: 5rem;
 }
 
+
+
 .page_elements div {
     display: flex;
+
+}
+
+#about-me-section {
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+#work-section {
+    padding-right: 10px;
+    padding-left: 40px;
+
 }
