@@ -51,18 +51,17 @@ h1 {
     text-align: right;
     color: #445876;
     font-size: 2rem;
-    border-right: 3px solid #435877;
+    border-bottom: 3px solid #435877;
     margin-left: 1rem;
     margin-right: 20px;
     padding-right: 3rem;
-    width: 5rem;
 }
 
-
-
-.page_elements div {
+.page_elements {
     display: flex;
-
+    flex-flow: column;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 #about-me-section {
