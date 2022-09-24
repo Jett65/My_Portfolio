@@ -12,9 +12,9 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: -10px;
+    padding-bottom: 20px;
     margin-top: -20px;
     background-color: #31343D;
-    max-width: none;
     
 }
 
@@ -64,13 +64,7 @@ h1 {
     text-align: center;
 }
 
-#about-me-section {
-    padding-right: 20px;
-    padding-left: 30px;
-}
-
-#work-section {
-    padding-right: 10px;
-    padding-left: 40px;
-
+.contact_info {
+    display: flex;
+    justify-content: space-between;
 }
