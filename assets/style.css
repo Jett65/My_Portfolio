@@ -32,6 +32,10 @@ h1 {
     
 }
 
+.line {
+    border-left: solid 1px re;
+}
+
 .header_links {
     display: flex;
     flex-flow: row;
@@ -41,11 +45,19 @@ h1 {
     list-style-type: none;
 }
 
-h2 {
+.page_elements h2 {
+    display: flex;
+    flex-flow: column;
+    text-align: right;;
     color: #445876;
-    text-decoration: underline;
+    border-right: 2px solid red;
+    margin-left: -5px;
+    margin-right: 20px;
+    padding: 15px;
+    width: 5rem;
 }
 
-p{
-    max-width: 1000px;
+.page_elements div {
+    display: flex;
+    justify-content: ;
 }
