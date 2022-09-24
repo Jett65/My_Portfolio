@@ -12,6 +12,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: -10px;
+    padding-bottom: 20px;
     margin-top: -20px;
     background-color: #31343D;
     
@@ -47,16 +48,23 @@ h1 {
 
 .page_elements h2 {
     display: flex;
-    flex-flow: column;
-    text-align: right;;
+    text-align: right;
     color: #445876;
-    border-right: 2px solid red;
-    margin-left: -5px;
+    font-size: 2rem;
+    border-bottom: 3px solid #435877;
+    margin-left: 1rem;
     margin-right: 20px;
-    padding: 15px;
-    width: 5rem;
+    padding-right: 3rem;
 }
 
-.page_elements div {
+.page_elements {
     display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-between;
 }
