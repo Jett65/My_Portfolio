@@ -1,5 +1,5 @@
-*{
-    font-family: Arial, sans-serif;
+body {
+    margin: 0;
 }
 
 .filler_image {
@@ -15,7 +15,6 @@ header {
     padding-bottom: 20px;
     margin-top: -20px;
     background-color: #31343D;
-    
 }
 
 h1 {
@@ -26,10 +25,7 @@ h1 {
     margin-bottom: -5px;
 }
 
-/*.backgroundimage {
-    background-image: url(../images/darth-vader.jpg);
-    padding: 200px 100px;
-    margin: 100px;*/
+
 
 .header_links a {
     color: white;
@@ -72,4 +68,9 @@ h1 {
 .contact_info {
     display: flex;
     justify-content: space-between;
+}
+
+.backgroundimage {
+    background-image: url(../image/darth-vader.jpg);
+    width: 100px;
 }
