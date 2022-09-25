@@ -34,10 +34,6 @@ h1 {
     
 }
 
-.line {
-    border-left: solid 1px re;
-}
-
 .header_links {
     display: flex;
     flex-flow: row;
@@ -71,10 +67,10 @@ h1 {
 }
 
 .backgroundimage {
-    height: 800px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(.\image\darth-vader.jpg);
+    background-image: url(../image/darth-vader.jpg);
     background-size: cover;
     background-position: center;
 }
