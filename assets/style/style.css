@@ -6,11 +6,6 @@ body {
     margin: 0;
 }
 
-.filler_image {
-    width: 50%;
-    
-}
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -81,4 +76,22 @@ h1 {
     background-image: url(../image/darth-vader.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#current_project img {
+    width: 800px;
+    height: 350px;
+    border: #92CCCD solid 5px;
+}
+
+.previous_top_row img {
+    width: 393px;
+    height: 150px;
+    border: #92CCCD solid 5px;
+}
+
+.previous_bottom_row img {
+    width: 393px;
+    height: 150px;
+    border: #92CCCD solid 5px;
 }
