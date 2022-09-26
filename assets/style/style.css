@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* Header================================================================= */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +17,6 @@ header {
     margin-top: -20px;
     background-color: #31343D;
 }
-
 h1 {
     color: black;
     background-color: #92CCCD;
@@ -24,9 +25,6 @@ h1 {
     padding-left: 6rem;
     margin-bottom: -5px;
 }
-
-
-
 .header_links a {
     color: #92CCCD;
     font-weight: bold; 
@@ -34,7 +32,6 @@ h1 {
     font-size: 1.2rem;
     
 }
-
 .header_links {
     display: flex;
     flex-flow: row;
@@ -46,29 +43,27 @@ h1 {
     list-style-type: none;
 }
 
+/* Page elements================================================================= */
+.page_elements {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
 .page_elements h2 {
     display: flex;
     text-align: right;
     color: #445876;
     font-size: 2rem;
-    border-bottom: 3px solid #435877;
+    border-right: 3px solid #435877;
     margin-left: 1rem;
     margin-right: 20px;
-    padding-right: 3rem;
-}
-
-.page_elements {
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 .contact_info {
     display: flex;
     justify-content: space-between;
 }
-
 .backgroundimage {
     height: 200px;
     width: 100%;
@@ -78,20 +73,27 @@ h1 {
     background-position: center;
 }
 
-#current_project img {
+.about_me_section {
+    display: inline-block;
+}
+
+
+/* Work section================================================================= */
+
+.current_project img {
     width: 800px;
     height: 350px;
     border: #92CCCD solid 5px;
 }
-
 .previous_top_row img {
     width: 393px;
     height: 150px;
     border: #92CCCD solid 5px;
 }
-
 .previous_bottom_row img {
     width: 393px;
     height: 150px;
     border: #92CCCD solid 5px;
 }
+
+/* ================================================================= */
