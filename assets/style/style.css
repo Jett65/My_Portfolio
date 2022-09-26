@@ -20,10 +20,10 @@ header {
 h1 {
     color: black;
     background-color: #92CCCD;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 5px;
     padding-left: 6rem;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
 }
 .header_links a {
     color: #92CCCD;
@@ -54,16 +54,50 @@ h1 {
     padding-right: 10px;
     max-width: 235px;
 }
-.work_section h2 {
-    margin-right: 84%;
-    padding-left:28px;
-    margin-left: 5%; 
+
+/* About Me */
+.about_me_section {
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom: 5%
 }
-.contact_info {
+.about_me_section p {
+    margin-right: 10%;
+}
+
+.about_me_section h2 {
+    margin-right: 50px;
+    padding-left: 50px;
+}
+
+/* Work */
+.work_section {
+    display: flex;
+    justify-content: space-between;
+}
+.work_section h2 {
+    padding-left: 28px;
+    margin-left: 45px; 
+}
+.work_section div {
+    margin-right: 200px;
+}
+
+/*Contact Me*/
+.contact_me_section {
     display: flex;
     justify-content: space-between;
 }
 
+.contact_info {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10%;
+}
+.contact_me_section h2 {
+    margin-right: 20%
+}
 /* background image================================================================= */
 
 .backgroundimage {
