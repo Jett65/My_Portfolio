@@ -49,9 +49,6 @@ h1 {
 
 /* Page elements================================================================= */
 .page_elements h2 {
-    display: flex;
-    flex-flow: row;
-    text-align: right;
     color: #445876;
     font-size: 3rem;
     border-right: 5px solid #435877;
@@ -67,6 +64,7 @@ h1 {
 }
 .about_me_section p {
     margin-right: 10%;
+    margin-top: 30px;
 }
 
 .about_me_section h2 {
@@ -74,7 +72,7 @@ h1 {
     padding-left: 100px;
 }
 
-/* Work */
+/* Work Section */
 .work_section {
     display: flex;
     justify-content: space-between;
@@ -170,3 +168,53 @@ h1 {
 }
 
 /* ================================================================= */
+
+
+@media screen and (max-width:768px)  {
+    .page_elements h2 {
+        color: #445876;
+        font-size: 3rem;
+        border-bottom: 5px solid #435877;
+        border-right: none;
+        padding-right: 10px;
+        max-width: none;
+        margin-left: 50px;
+    }
+
+    /*About Me*/
+    .about_me_section {
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 5%
+    }
+    .about_me_section p {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+
+    /*Work Section*/
+    .work_section {
+        display: flex;
+        flex-flow: column;
+    }
+    .work_section h2 {
+        padding-left: 28px;
+        margin-left: 90px; 
+        margin-right: 90px
+    }
+    .work_section div {
+        margin-left: 10px;
+    }
+    .current_project img {
+        width: 600px;
+        height: 350px;
+        border: var(--back-color) solid 5px;
+    }
+    .previous_top_row  img{
+        margin-left: 100px;
+    }
+    .previous_bottom_row img{
+        margin-left: 100px;
+    }
+}
