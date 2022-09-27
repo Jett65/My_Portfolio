@@ -20,3 +20,6 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Screen Shots
+![Screen shot of the site](.\assets\image\screen.png)
+![Screen shot of the site](.\assets\image\Screenshottwo.png)
+![Screen shot of the site](.\assets\image\screenthree.png)
