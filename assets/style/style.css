@@ -85,7 +85,7 @@ h1 {
     margin-left: 90px; 
 }
 .work_section div {
-    margin-right: 120px;
+    margin-right: 200px;
 }
 
 /*Contact Me*/
@@ -113,7 +113,7 @@ h1 {
 .backgroundimage {
     height: 200px;
     margin-bottom: 25px;
-    background-image: url(..\image\IMG_3777.jpg);
+    background-image: url(../image/IMG_3777.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -137,12 +137,12 @@ h1 {
     border: var(--back-color) solid 5px;
 }
 .previous_top_row img {
-    width: 393px;
+    width: 392px;
     height: 150px;
     border: var(--back-color) solid 5px;
 }
 .previous_bottom_row img {
-    width: 393px;
+    width: 392px;
     height: 150px;
     border: var(--back-color) solid 5px;
 }
@@ -250,5 +250,42 @@ h1 {
         margin-top: 12px;
         margin-left: 50px;
         margin-bottom: 50px;
+    }
+}
+
+@media  screen and (max-width: 1370px) {
+    .current_project img {
+        width: 600px;
+        height: 350px;
+        border: var(--back-color) solid 5px;
+    }
+    .previous_top_row img {
+        width: 292px;
+        height: 150px;
+        border: var(--back-color) solid 5px;
+    }
+    .previous_bottom_row img {
+        width: 292px;
+        height: 150px;
+        border: var(--back-color) solid 5px;
+    }
+
+}
+
+@media  screen and (max-width: 1670px) {
+    .current_project img {
+        width: 600px;
+        height: 350px;
+        border: var(--back-color) solid 5px;
+    }
+    .previous_top_row img {
+        width: 292px;
+        height: 150px;
+        border: var(--back-color) solid 5px;
+    }
+    .previous_bottom_row img {
+        width: 292px;
+        height: 150px;
+        border: var(--back-color) solid 5px;
     }
 }
