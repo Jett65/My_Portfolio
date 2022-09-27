@@ -50,6 +50,9 @@ h1 {
 
 /* Page elements================================================================= */
 .page_elements h2 {
+    display: flex;
+    flex-flow: row;
+    text-align: right;
     color: #445876;
     font-size: 3rem;
     border-right: 5px solid #435877;
@@ -65,7 +68,6 @@ h1 {
 }
 .about_me_section p {
     margin-right: 10%;
-    margin-top: 30px;
 }
 
 .about_me_section h2 {
@@ -73,7 +75,7 @@ h1 {
     padding-left: 100px;
 }
 
-/* Work Section */
+/* Work */
 .work_section {
     display: flex;
     justify-content: space-between;
@@ -180,6 +182,7 @@ h1 {
 
 
 /* ================================================================= */
+<<<<<<< HEAD
 
 
 @media screen and (max-width:480px)  {
@@ -286,3 +289,6 @@ h1 {
     }
 
 }
+=======
+>>>>>>> parent of 934ec74 (started)
+
