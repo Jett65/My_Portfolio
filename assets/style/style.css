@@ -182,128 +182,19 @@ h1 {
 /* ================================================================= */
 
 
-@media screen and (max-width:770px)  {
-    /*Header==============================================*/
-    .backgroundimage {
-        margin-right: none;
-        padding-right: none;
-    }
-
-    /*page elements==============================================*/
-
-    .page_elements h2 {
-        border-bottom: 5px solid #435877;
-        border-right: none;
-        padding-right: 10px;
-        max-width: none;
-        margin-left: 50px;
-    }
-
-    /*About Me============================================*/
-    .about_me_section {
-        display: flex;
-        flex-flow: column;
-        margin-bottom: 5%
-    }
-    .about_me_section p {
-        margin-right: 10%;
-        margin-left: 10%;
-        margin-top: 30px;
-    }
-
-    /*Work Section============================================*/
-    .work_section {
-        display: flex;
-        flex-flow: column;
-    }
-    .work_section h2 {
-        padding-left: 28px;
-        margin-left: 90px; 
-        margin-right: 90px
-    }
-    .work_section div {
-        margin-left: 5%;
-    }
-    .current_project a img {
-        width: 600px;
-        height: 350px;
-        margin-left: 0px;
-        border: var(--back-color) solid 5px;
-    }
-    .previous_top_row{
-        display: none;
-        margin-left: 40%;
-    }
-    .previous_bottom_row img{
-        display: none;
-        margin-left: 100px;
-    }
-    /*image text*/
-    .current_project .imgtext{
-
-    }
-    .previous_top_row .imgtext {
-        display: none;
-    }
-    .previous_bottom_row{
-        display: none;
-    }
-    .Undder_content_link a{
-        display: block;
-    }
-
-    /*Contact Me============================================*/
-    .contact_me_section {
-        display: flex;
-        flex-flow: column;
-    }
-    .contact_info {
-        display: flex;
-        flex-wrap: wrap;
-        min-width: 600px;
-        margin-top: 4px;
-        padding-bottom: 10px;
-
-
-    }
-    .contact_me_section h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    /*Header ============================================*/
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: -10px;
-        padding-bottom: 20px;
-        margin-top: -20px;
-        background-color: #31343D;
-        margin-right: -50px
-    }
-    .header_links {
-        min-width: 400px;
-        padding-top: 5px;
-        margin-left: 140px;
-    }
-
-
+@media screen and (max-width:480px)  {
+    /*Header*/
     #headimg_text {
-        margin-left: 67%;
+        font-size: 1rem;
     }
-}
-
-@media screen and (max-width:1470px) {
-
-    
+    /*Work Section*/
     .work_section div {
         margin-left: 12%;
     }
     .current_project img {
-        width: 600px;
-        height: 350px;
-        margin-left: -180px;
+        width: 500px;
+        height: 250px;
+        margin-left: -120px;
         border: var(--back-color) solid 5px;
     }
     .previous_top_row  img{
@@ -316,7 +207,8 @@ h1 {
     }
     /*image text*/
     .current_project .imgtext{
-        margin-left: 10px;
+        margin-top: 180px;
+        margin-left: -111px;
     }
     .previous_top_row .imgtext {
         display: none;
@@ -326,7 +218,71 @@ h1 {
     }
     .Undder_content_link a{
         display: block;
-        margin-left: 378px;
+        margin-left: 164px;
+        margin-top: 180px;
+    }
+
+    /*Contact Me*/
+    .contact_info {
+        flex-flow: column;
+        margin-top: 35px;
+    }
+
+    .page_elements h2 {
+        color: #445876;
+        font-size: 3rem;
+        border-bottom: 5px solid #435877;
+        border-right: none;
+        padding-right: 10px;
+        max-width: 235px;
+    }
+
+}
+
+@media screen and (max-width:960px) {
+    /*Header*/
+    #headimg_text {
+        margin-left: 67%;
+    }
+    /*Work Section*/
+    .work_section div {
+        margin-left: 12%;
+    }
+    .current_project img {
+        width: 500px;
+        height: 250px;
+        margin-left: -120px;
+        border: var(--back-color) solid 5px;
+    }
+    .previous_top_row  img{
+        display: none;
+        margin-left: 100px;
+    }
+    .previous_bottom_row img{
+        display: none;
+        margin-left: 100px;
+    }
+    /*image text*/
+    .current_project .imgtext{
+        margin-top: 180px;
+        margin-left: -111px;
+    }
+    .previous_top_row .imgtext {
+        display: none;
+    }
+    .previous_bottom_row{
+        display: none;
+    }
+    .Undder_content_link a{
+        display: block;
+        margin-left: 164px;
+        margin-top: 180px;
+    }
+
+    /*Contact Me*/
+    .contact_info {
+        flex-flow: column;
+        margin-top: 35px;
     }
 
 }
