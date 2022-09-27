@@ -113,7 +113,7 @@ h1 {
 .backgroundimage {
     height: 200px;
     margin-bottom: 25px;
-    background-image: url(../image/darth-vader.jpg);
+    background-image: url(..\image\IMG_3777.jpg);
     background-size: cover;
     background-position: center;
 }
