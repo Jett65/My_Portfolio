@@ -31,6 +31,7 @@ h1 {
     padding-right: 20px;
     margin-bottom: 5px;
 }
+/*Header Links*/
 .header_links a {
     color: var(--back-color);
     font-weight: bold; 
@@ -84,7 +85,7 @@ h1 {
     margin-left: 90px; 
 }
 .work_section div {
-    margin-right: 200px;
+    margin-right: 120px;
 }
 
 /*Contact Me*/
@@ -111,7 +112,6 @@ h1 {
 
 .backgroundimage {
     height: 200px;
-    width: 100%;
     margin-bottom: 25px;
     background-image: url(../image/darth-vader.jpg);
     background-size: cover;
@@ -155,7 +155,7 @@ h1 {
 }
 .current_project .imgtext {
      padding: var(--imgtext-padding);
-     margin-top: 270px;
+     margin-top: 280px;
    
 }
 .previous_top_row .imgtext {
@@ -168,5 +168,87 @@ h1 {
     margin-left: 413px;
     margin-top: -90px;
 }
+.Undder_content_link a{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: var(--back-color);
+    padding: var(--imgtext-padding);
+    margin-left: 335px;
+    margin-top: 280px;
+}
+
 
 /* ================================================================= */
+
+@media  screen and (max-width: 412px) {
+    /*==Header==*/
+    header {
+        margin-right: -520px;
+    }
+    
+    .header_links a{
+        margin-left: 70px;
+    }
+    .backgroundimage {
+        margin-right: -430px;
+    }
+    #headimg_text {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 600px;
+        margin-top: 90px;
+    }
+    /*==Page elements==*/
+    .page_elements h2 {
+        border-right: none;
+        border-bottom: 5px solid #435877;
+    }
+    /*About me*/
+    .about_me_section {
+        flex-flow: column;
+    }
+    .about_me_section h2 {
+        justify-content: center;
+        width: 100vw;
+        margin-left: 200px;;
+    } 
+    .about_me_section p {
+        width: 100vw;
+        margin-left: 200px;
+    }
+    /*Work Section*/
+    .work_section {
+        flex-flow: column;
+    }
+    .current_project img{
+        width: 600px;
+        margin-left: 100px;
+    }
+    .current_project .imgtext {
+        margin-left: 110px;
+        margin-right: -150px
+    }
+    .previous_top_row a img{
+        display: none;
+    }
+    .previous_bottom_row a img{
+        display: none;
+    }
+    .previous_top_row .imgtext {
+        display: none;
+    }
+    .previous_bottom_row .imgtext {
+        display: none;
+    }
+    /*Contact Me*/
+    .contact_me_section {
+        flex-flow: column;
+    }
+    .contact_info {
+        flex-flow: column;
+        margin-top: 12px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+}
