@@ -111,6 +111,7 @@ h1 {
 .backgroundimage {
     height: 200px;
     width: 100%;
+    margin-right: 0px;
     margin-bottom: 25px;
     background-image: url(../image/darth-vader.jpg);
     background-size: cover;
@@ -182,6 +183,14 @@ h1 {
 
 
 @media screen and (max-width:770px)  {
+    /*Header==============================================*/
+    .backgroundimage {
+        margin-right: none;
+        padding-right: none;
+    }
+
+    /*page elements==============================================*/
+
     .page_elements h2 {
         border-bottom: 5px solid #435877;
         border-right: none;
@@ -215,15 +224,15 @@ h1 {
     .work_section div {
         margin-left: 5%;
     }
-    .current_project img {
+    .current_project a img {
         width: 600px;
         height: 350px;
-        margitn-left: -50px;
+        margin-left: 0px;
         border: var(--back-color) solid 5px;
     }
-    .previous_top_row  img{
+    .previous_top_row{
         display: none;
-        margin-left: 100px;
+        margin-left: 40%;
     }
     .previous_bottom_row img{
         display: none;
@@ -231,7 +240,7 @@ h1 {
     }
     /*image text*/
     .current_project .imgtext{
-        margin-left: 10px;
+
     }
     .previous_top_row .imgtext {
         display: none;
@@ -263,6 +272,16 @@ h1 {
     }
     
     /*Header ============================================*/
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: -10px;
+        padding-bottom: 20px;
+        margin-top: -20px;
+        background-color: #31343D;
+        margin-right: -50px
+    }
     .header_links {
         min-width: 400px;
         padding-top: 5px;
@@ -297,7 +316,7 @@ h1 {
     }
     /*image text*/
     .current_project .imgtext{
-        margin-left: -170px;
+        margin-left: 10px;
     }
     .previous_top_row .imgtext {
         display: none;
@@ -307,7 +326,7 @@ h1 {
     }
     .Undder_content_link a{
         display: block;
-        margin-left: 198px;
+        margin-left: 378px;
     }
 
 }
